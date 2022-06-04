@@ -25,7 +25,7 @@ body {
 .fh {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    
 }
 
 .fv {
@@ -112,10 +112,6 @@ body {
       width: 20px;
       display: flex;
       justify-content: center;
-  }
-
-  .contact-info__item-icon path {
-      fill: var(--icon-color);
   }
 
   .contact-info__item-icon {
@@ -261,4 +257,9 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+
+.img {
+    width: 10px;
+    height: 10px;
 }
