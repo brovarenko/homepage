@@ -52,24 +52,17 @@ body {
     background-color:#242427;
 }
 
-@media screen and (max-width: 576px) {
-
-    .main-info,
-    .contact_info_container {
-        flex-direction: column;
+@media screen and (max-width: 650px) {
+    .fh {
+       flex-direction: column;
     }
-
-    .contact_info_container {
-        align-items: center;
+    .left_block {
+        max-width: 650px;
     }
-
-    .contact-info__block:not(:last-child) {
-        margin-bottom: 20px;
+    .intro__header{
+        margin-top: 15px;
     }
-
-    .experiences {
-        margin-right: 0;
-    }
+    
 }
 .avatar__block {
     display: flex;
