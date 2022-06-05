@@ -153,6 +153,12 @@ body {
     justify-content: start;
 }
 
+.intro__header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
 .intro__icon {
     height: 1.1428rem;
     vertical-align: text-bottom;
@@ -262,6 +268,10 @@ body {
     margin-bottom: 20px;
 }
 
+.additional-info__education-university {
+    margin-bottom: 25px;
+}
+
 .additional-info__education-university-durability {
     color: var(--durability-text-color);
     text-align: left;
@@ -269,13 +279,13 @@ body {
     font-size: 15px;
 }
 
-.additional-info__education-university-speciality {
+.additional-info__education-university-name {
     color: var(--primary-text-color);
     text-align: left;
     margin-bottom: 10px;
 }
 
-.additional-info__education-university-name {
+.additional-info__education-university-speciality {
     color: var(--secondary-text-color);
 }
 
