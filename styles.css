@@ -167,15 +167,36 @@ body {
     text-align: justify;
 }
 
+.skills {
+    display: flex;
+    flex-direction: column;
+    color: var(--secondary-text-color);
+}
+
 .skills__header {
     color: var(--secondary-text-color);
     text-align: center;
     margin-bottom: 15px;
 }
 
-.skills__text {
+.skills__item {
+   margin-left: 20px;
+}
+
+.languages {
+    display: flex;
+    flex-direction: column;
     color: var(--secondary-text-color);
-    text-align: justify;
+}
+
+.languages__header {
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.languages__item {
+    margin-left: 5px;
 }
 
 .experiences {
